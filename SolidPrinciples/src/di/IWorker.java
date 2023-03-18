@@ -26,6 +26,6 @@ class Manager1{
 		worker =w;
 	}
 	public void manager() {
-		worker.work();
+		worker.work();//imsorryfriend :)---(:
 	}
 }

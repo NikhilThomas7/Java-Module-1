@@ -11,7 +11,7 @@ public class staticDemo2 {
 	}
 	
 	public  void method2() {
-		System.out.println("from method" + a);
+		System.out.println("from method" + "2");
 	}
 
 }

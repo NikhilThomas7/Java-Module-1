@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+header,main,footer{
+    
+        border: 1px solid #000 ;
+        text-align: center;
+    }
+    main{
+        flex: auto;
+        background-color: bisque;
+
+    }
+    header{
+        height: 100px;
+        padding: 10px;
+        /* text-align: center; */
+    }
+    h1{
+        color: darkcyan;
+    }
+    footer{
+        height: 75px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikhil Thomas</h1>
+        <h4>Software Developer</h4>
+    </header>
+
+    <main>
+        <img src="images/david-beckham-england-profile.jpg" alt="image not available" width="100" height="100">
+    
+        <!-- <h2> Nikhil Thomas</h2> -->
+        <!-- <h4>Software Developer</h4> -->
+        <h4>-------------------------------------------------------------------------------------------</h4>
+        <h3>Email : nikhilvthomas7@gmail.com</h3>
+        <h4>-------------------------------------------------------------------------------------------</h4>
+        <h3 style="color: rgb(204, 88, 88);">Qualification : Btech in Computer Science</h3>
+        <h4>-------------------------------------------------------------------------------------------</h4>
+        <h3>Skill Set: Java, Python, Html, Css </h3>
+        <h3>Projects: Certification Verification Using Blockchain </h3>
+        <h3>Certification : Google Cloud Fundamentals</h3>
+        <h4>----------------------------
+    </main>
+    <footer>
+        <h1>Contact</h1>
+        <h4>Facebook:www.fb.com/nicks7</h4>
+
+    </footer>
+</body>
+</html>
